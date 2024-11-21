@@ -3,17 +3,11 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 function App() {
   const [todo, setTodo] = useState([]);
+
   const [weeklyTodo, setWeeklyTodo] = useState([]);
   const [newTask, setNewTask] = useState("");
   const [weeklyNewTask, setWeeklyNewTask] = useState("");
-  // const task = [
-  //   "Installing react",
-  //   "understanding JSX",
-  //   "Installing Tailwind",
-  //   "Tailwing Css classes to style",
-  //   "Dynamic to-do list",
-  //   "Im learning map methods and rendering homie",
-  // ];
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (newTask.trim()) {
@@ -30,8 +24,8 @@ function App() {
   };
   return (
     <>
-      <h1 className="mb-5 mt-4 text-6xl h-auto text-center text-pretty font-sans">
-        <h1>TODO LIST</h1>
+      <h1 className="mb-5 mt-4 text-4xl h-auto text-center">
+        <h1>TODO LIST :- </h1>
       </h1>
       {/* parent */}
       <div className="flex justify-around space-x-8">
