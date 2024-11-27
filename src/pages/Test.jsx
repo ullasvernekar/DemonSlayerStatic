@@ -4,6 +4,20 @@ import Slider from "react-slick"; // Import the carousel component
 import "slick-carousel/slick/slick.css"; // Import the slick carousel styles
 import "slick-carousel/slick/slick-theme.css"; // Import the slick carousel theme styles
 
+import gif1 from "./../assets/gif1.gif";
+import gif2 from "./../assets/gif2.gif";
+import gif3 from "./../assets/gif3.gif";
+import gif4 from "./../assets/gif4.gif";
+
+import hanafuda from "./../assets/hanafuda.jpg";
+import training from "./../assets/training.jpg";
+import early from "./../assets/early.jpg";
+import fire from "./../assets/fire.jpg";
+import water from "./../assets/water.jpg";
+
+import early1 from "./../assets/early1.png";
+import hanafuda1 from "./../assets/hanafuda1.webp";
+import training1 from "./../assets/training1.jpg";
 
 const Test = () => {
   return (
@@ -26,17 +40,18 @@ const Test = () => {
 
           {/* Introduction Paragraph */}
           <p className="text-lg leading-relaxed">
-            Tanjiro is a boy of kind nature with a strong sense of justice. He is the
-            main protagonist of <em>Kimetsu no Yaiba (Demon Slayer)</em>. Sporting ruffled
-            black hair with a tinge of burgundy at the end and a prominent scar on the
-            left side of his forehead.
+            Tanjiro is a boy of kind nature with a strong sense of justice. He
+            is the main protagonist of <em>Kimetsu no Yaiba (Demon Slayer)</em>.
+            Sporting ruffled black hair with a tinge of burgundy at the end and
+            a prominent scar on the left side of his forehead.
           </p>
 
           {/* Background Paragraph */}
           <p className="mt-4 text-lg leading-relaxed">
-            His father, Tanjuro Kamado, passed away due to illness, leaving behind his
-            wife and six children. As the eldest son of the Kamado family, Tanjiro took
-            on the responsibility of caring for his younger siblings and mother.
+            His father, Tanjuro Kamado, passed away due to illness, leaving
+            behind his wife and six children. As the eldest son of the Kamado
+            family, Tanjiro took on the responsibility of caring for his younger
+            siblings and mother.
           </p>
         </div>
       </div>
@@ -46,16 +61,17 @@ const Test = () => {
         <h2 className="text-2xl font-bold mb-4 text-red-400">Key Highlights</h2>
         <ul className="list-disc ml-6 space-y-2 text-gray-300">
           <li>
-            Wields the <strong>Water Breathing</strong> technique and later masters the
+            Wields the <strong>Water Breathing</strong> technique and later
+            masters the
             <strong>Hinokami Kagura</strong> (Dance of the Fire God).
           </li>
           <li>
-            Always carries his sister Nezuko in a special wooden box during the day to
-            shield her from sunlight.
+            Always carries his sister Nezuko in a special wooden box during the
+            day to shield her from sunlight.
           </li>
           <li>
-            Known for his exceptional sense of smell, which helps him track demons and
-            identify their weaknesses.
+            Known for his exceptional sense of smell, which helps him track
+            demons and identify their weaknesses.
           </li>
           <li>
             His kindness extends even to demons, often showing compassion and
@@ -66,7 +82,9 @@ const Test = () => {
 
       {/* Quote Section */}
       <div className="mt-8 bg-red-600 p-6 rounded-lg shadow-md">
-        <h2 className="text-xl font-bold text-white mb-4">Inspirational Quote</h2>
+        <h2 className="text-xl font-bold text-white mb-4">
+          Inspirational Quote
+        </h2>
         <p className="italic text-gray-100 text-lg leading-relaxed">
           "I can do it. I know I can do it. I'm the one who has to do it. I will
           never give up. I will never give up. Never. Never."
@@ -75,40 +93,43 @@ const Test = () => {
 
       {/* Fun Facts Section */}
       <div className="mt-8 mb-6">
-        <h2 className="text-2xl font-bold mb-4 text-red-400">Fun Facts About Tanjiro</h2>
+        <h2 className="text-2xl font-bold mb-4 text-red-400">
+          Fun Facts About Tanjiro
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Fact 1 */}
           <div className="bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg">
             <h3 className="font-bold text-white mb-2">Signature Earrings</h3>
             <p className="text-gray-300 text-sm">
-              Tanjiro's hanafuda earrings are a family heirloom and play a significant
-              role in the story. Their unique design symbolizes his connection to his
-              father and the Hinokami Kagura.
+              Tanjiro's hanafuda earrings are a family heirloom and play a
+              significant role in the story. Their unique design symbolizes his
+              connection to his father and the Hinokami Kagura.
             </p>
           </div>
           {/* Fact 2 */}
           <div className="bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg">
             <h3 className="font-bold text-white mb-2">Favorite Food</h3>
             <p className="text-gray-300 text-sm">
-              Tanjiro's favorite food is udon noodles, and he is often seen enjoying
-              a hearty bowl during his journey.
+              Tanjiro's favorite food is udon noodles, and he is often seen
+              enjoying a hearty bowl during his journey.
             </p>
           </div>
           {/* Fact 3 */}
           <div className="bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg">
             <h3 className="font-bold text-white mb-2">Training Journey</h3>
             <p className="text-gray-300 text-sm">
-              Tanjiro underwent rigorous training under Sakonji Urokodaki to master
-              the Water Breathing technique, overcoming numerous obstacles to
-              graduate as a Demon Slayer.
+              Tanjiro underwent rigorous training under Sakonji Urokodaki to
+              master the Water Breathing technique, overcoming numerous
+              obstacles to graduate as a Demon Slayer.
             </p>
           </div>
           {/* Fact 4 */}
           <div className="bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg">
             <h3 className="font-bold text-white mb-2">Sense of Smell</h3>
             <p className="text-gray-300 text-sm">
-              His extraordinary sense of smell allows him to detect the emotions of
-              people and demons, often giving him a tactical advantage in battles.
+              His extraordinary sense of smell allows him to detect the emotions
+              of people and demons, often giving him a tactical advantage in
+              battles.
             </p>
           </div>
         </div>
@@ -119,13 +140,11 @@ const Test = () => {
         {/* Card 1 */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
           <img
-            src={demon}
+            src={early1}
             alt="Tanjiro Kamado"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
-          <h3 className="text-xl font-semibold text-white mb-2">
-            Early Life
-          </h3>
+          <h3 className="text-xl font-semibold text-white mb-2">Early Life</h3>
           <p className="text-gray-300">
             Tanjiro's peaceful life was upended after the tragic loss of his
             family.
@@ -135,7 +154,7 @@ const Test = () => {
         {/* Card 2 */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
           <img
-            src={demon}
+            src={hanafuda1}
             alt="Tanjiro Kamado"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
@@ -150,7 +169,7 @@ const Test = () => {
         {/* Card 3 */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
           <img
-            src={demon}
+            src={training1}
             alt="Tanjiro Kamado"
             className="w-full h-48 object-cover rounded-md mb-4"
           />
@@ -164,35 +183,101 @@ const Test = () => {
         </div>
       </div>
 
-      {/* Additional Images Section */}
-      <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-12">
+      {/* Additional GIFs Section */}
+      <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-12 gap-8">
         <h2 className="text-2xl font-bold text-red-400 mb-4">
-          Additional Images
+          Additional GIFs
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {/* First GIF */}
           <img
-            src={demon}
-            alt="Additional Image"
+            src={gif1} // Imported gif3
+            alt="Additional GIF 3"
             className="w-full h-48 object-cover rounded-md shadow-md"
           />
           <img
-            src={demon}
-            alt="Additional Image"
+            src={gif2} // Imported gif3
+            alt="Additional GIF 3"
             className="w-full h-48 object-cover rounded-md shadow-md"
           />
+
           <img
-            src={demon}
-            alt="Additional Image"
+            src={gif3} // Imported gif3
+            alt="Additional GIF 3"
             className="w-full h-48 object-cover rounded-md shadow-md"
           />
+
           <img
-            src={demon}
-            alt="Additional Image"
+            src={gif4} // Imported gif3
+            alt="Additional GIF 3"
             className="w-full h-48 object-cover rounded-md shadow-md"
           />
         </div>
       </div>
 
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-4">
+        {/* Water Breathing Card */}
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex items-center">
+          {/* Left Description */}
+          <div className="flex-1 text-gray-300 pr-4">
+            <h3 className="text-xl font-semibold text-white mb-2">
+              Water Breathing
+            </h3>
+            <p>
+              Water Breathing is a swordsmanship technique that Tanjiro Kamado
+              learns early on in his journey. It uses water to simulate flowing,
+              creating powerful, controlled attacks.
+            </p>
+          </div>
+          {/* Image */}
+          <img
+            src={water}
+            alt="Water Breathing"
+            className="w-48 h-48 object-cover rounded-md shadow-md"
+          />
+          {/* Right Description */}
+          <div className="flex-1 text-gray-300 pl-4 hidden sm:block">
+            <h3 className="text-xl font-semibold text-white mb-2">Forms</h3>
+            <p>
+              Water Surface Slash Water Wheel Flowing Dance Striking Tide
+              Blessed Rain After the Drought Whirlpool Piercing Rain Drop
+              Waterfall Basin Splashing Water Flow, Turbulent Constant Flux
+            </p>
+          </div>
+        </div>
+
+        {/* Hinokami Kagura Card */}
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex items-center">
+          {/* Left Description */}
+          <div className="flex-1 text-gray-300 pr-4">
+            <h3 className="text-xl font-semibold text-white mb-2">
+              Fire Breathing 
+            </h3>
+            <p>
+            Fire Breathing is a combat style used by the Flame Hashira, 
+            focusing on powerful, explosive attacks that channel the energy of fire. 
+            It's known for its strength and intensity, delivering devastating blows in battle.
+            </p>
+          </div>
+          {/* Image */}
+          <img
+            src={fire}
+            alt="Hinokami Kagura"
+            className="w-48 h-48 object-cover rounded-md shadow-md"
+          />
+          {/* Right Description */}
+          <div className="flex-1 text-gray-300 pl-4 hidden sm:block">
+            <h3 className="text-xl font-semibold text-white mb-2">
+              Hinokami Kagura
+            </h3>
+            <p>
+              The Hinokami Kagura, also known as the Dance of the Fire God, is
+              an ancient technique passed down through the Kamado family. It is
+              later revealed to be a key part of Tanjiro's true abilities.
+            </p>
+          </div>
+        </div>
+      </div>
 
       {/* Horizontal Image Section */}
       <div className="my-8">
