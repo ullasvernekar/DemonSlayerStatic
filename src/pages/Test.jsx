@@ -18,8 +18,19 @@ import water from "./../assets/water.jpg";
 import early1 from "./../assets/early1.png";
 import hanafuda1 from "./../assets/hanafuda1.webp";
 import training1 from "./../assets/training1.jpg";
+import { useLocation, useParams } from "react-router-dom";
 
 const Test = () => {
+
+  const location = useLocation();
+  const character = location.state; // The data passed from the Home page
+
+
+  const {id}= useParams()
+
+
+  console.log(id)
+
   return (
     <div className="bg-gray-900 text-white p-6">
       {/* Header Section */}
